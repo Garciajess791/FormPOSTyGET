@@ -17,7 +17,7 @@ if($_POST){
                            
                             
                                 header('Location:http://localhost:8080/UF1844/Examen/index.php?&&email='.$email.'&&name='.$name.'&&motivo='.$motivo.'&&consulta='.$consulta);
-                                //GuardarDatos($email, $name, $consulta, $datos);
+                               
                         }
                     }
                 }
@@ -26,22 +26,4 @@ if($_POST){
     }
 }
 
-
-/*function GuardarDatos($email, $name, $consulta, $datos){
-    if($datos != 0){
-                $msn = "Enviado, en cuanto pueda atención al cliente, se pondra en contacto con usted, gracias!";
-                header('Location:http://localhost:8080/copia/UF1844/index_ex.php?msn='.$msn);
-            }else{
-                $msn = "Error en el envio!";
-                header('Location:http://localhost:8080/copia/UF1844/index_ex.php?msn='.$msn);
-            }
-
-        }
-
-
-
-function GuardarDatos (){
-    let alert = setInterval( 'document.getElementById("alert").style.display = "none" ', 2000);
-}
-*/
 ?>
