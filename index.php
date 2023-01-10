@@ -52,7 +52,7 @@ require('controller.php');
                 <div class="row justify-content-center h-300">
                     <div class="col-12">
 
-                        <form class="bg-white  rounded-5 shadow-5-strong p-5" method="post" action="controller_ex.php" onchange="PreDatos(this.value)">
+                        <form class="bg-white  rounded-5 shadow-5-strong p-5" method="post" action="controller.php">
                             <h4 class="text-center mb-5 text-black">Hago aquí su consulta:</h4>
                             <div class="form-group">
                                 <label> Email </label>
@@ -82,7 +82,7 @@ require('controller.php');
                             <div class="row">
                                 <div class="col-lg-12">
                                     <input type="hidden" name="accion" value="datoguardado" />
-                                    <input class="btn btn-light btn-block mb-4" type="submit" value="ENVIAR" onclick="GuardarDatos()" />
+                                    <input class="btn btn-light btn-block mb-4" type="submit" value="ENVIAR" />
                                     <input class="btn btn-danger btn-block mb-4" type="reset" value="RESET" />
                                 </div>
                             </div>
